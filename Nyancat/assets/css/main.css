@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #background {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #button {
+    text-align: center;
+  }
+  
+  #button button {
+    padding: 8px;
+    font-family:'Ramabhadra', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 3px solid #494949;
+    border-radius: 6px;
+
+    align-self: center;
+  }
+  
+  #myAnimation {
+    width: 200px;
+    height: 100px;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: rotate(25deg);
+  }
